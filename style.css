@@ -1,0 +1,609 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+   background-color: whitesmoke;
+    height: 100vh;
+}
+nav
+{
+    position: relative;
+    height: 120px;
+}
+
+#logo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 10px;
+    position: relative;
+    float: left;
+}
+#menuList
+{   position: relative;
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    margin-right: 5px;
+    align-items: center;
+    top: 30%;
+    transition: ease-in-out 1s;
+}
+
+li
+{
+    list-style: none;
+}
+
+.text-Menu
+{
+    
+    padding: 10px 5px;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 2px 12px 2px black;
+    border-radius: 10px;
+
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.text-Menu:hover
+{
+    background-color: gray;
+    transition: ease-in-out 1s;
+}
+
+#about, #article, #findUs, #contact
+{
+    transition: ease-in-out 1s;
+}
+
+
+
+h1, h3, h4, h2
+{
+    text-align: center;
+    margin-top: 15px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+#bureau
+{
+    margin: 0 25%;
+    width: 50%;
+    transition: ease-in-out 1s;
+}
+
+#bureau:hover
+{
+    transition: ease-in-out 1s;
+    width: 100%;
+    margin: 0;
+}
+
+
+iframe
+{
+    width: 50%;
+    margin: 30px 25%;
+    transition: ease-in-out 1s;
+}
+iframe:hover
+{
+    width: 100%;
+    margin: 0%;
+    transition: ease-in-out 1s;
+}
+
+#adresse
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: whitesmoke;
+    width: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: ease-in-out 1s;
+    box-shadow: 0 2px 12px 2px black;
+}
+
+#adresse:hover
+{
+    width: 100%;
+    background-color: gray;
+    transition: ease-in-out 1s;
+    color: white;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+/***********Articles*****************/
+.article
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    margin-top: 15px;
+
+
+}
+
+.photo
+{
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+    transition: ease-in-out 1s;
+}
+
+.photo:hover
+{
+   background-color: indigo;
+   width: 750px;
+   height: 650px;
+   transition: ease-in-out 1s;
+}
+
+/****************responsive***********/
+@media screen and (max-width: 600px)
+{
+    body
+    {
+        transition: ease-in-out 1s;
+    }
+    nav
+    {
+        height: 150px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        margin-bottom: 10px;
+    }
+    #logo
+    {
+        display: flex;
+        justify-content: center;
+        margin: 0 45%;
+    }
+    #menuList
+    {
+        position: relative;
+        display: flex;
+        margin-right: 0 5px;
+        margin: -7% 0 0 0;
+        transition: ease-in-out 1s;
+    }
+}
+
+
+@media screen and (max-width: 450px)
+{
+    body
+    {
+        transition: ease-in-out 1s;
+    }
+    nav
+    {
+        height: 200px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        margin-bottom: 10px;
+    }
+    #logo
+    {
+        display: flex;
+        justify-content: center;
+        margin: 0 45%;
+    }
+    #menuList
+    {
+        position: relative;
+        display: flex;
+        margin-right: 0 5px;
+        margin: -7% 0 0 0;
+        transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width: 300px)
+{
+    body
+    {
+        transition: ease-in-out 1s;
+    }
+    nav
+    {
+        height: 200px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        margin-bottom: 20px;
+    }
+    #logo
+    {
+        display: flex;
+        justify-content: center;
+        margin: 0 35%;
+    }
+    #menuList
+    {
+        margin: -40px 0 0 0;
+    }
+    .text-Menu
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1300px)
+{
+        .photo
+    {
+        width: 550px;
+        height: 450px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 600px;
+    height: 500px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width: 1150px)
+{
+        .photo
+    {
+        width: 500px;
+        height: 400px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 600px;
+    height: 500px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width: 1080px)
+{
+        .photo
+    {
+        width: 450px;
+        height: 350px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 500px;
+    height: 450px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+        .photo
+    {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 450px;
+    height: 400px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+        .photo
+    {
+        width: 350px;
+        height: 300px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 400px;
+    height: 350px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width:800px)
+{
+        .photo
+    {
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 400px;
+    height: 350px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width:750px)
+{
+        .photo
+    {
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 350px;
+    height: 250px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    .photo
+    {
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 350px;
+    height: 300px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+        .photo
+    {
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 300px;
+    height: 300px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+        .photo
+    {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 300px;
+    height: 300px;
+    transition: ease-in-out 1s;
+    }
+}
+
+
+@media screen and (max-width:590px)
+{
+        .photo
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    background-color: indigo;
+    width: 250px;
+    height: 250px;
+    transition: ease-in-out 1s;
+    }
+}
+
+
+@media screen and (max-width:500px)
+{
+        .article
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .photo
+    {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    width:100%;
+    height: 400px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width:440px)
+{
+    .photo
+    {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    height: 350px;
+    transition: ease-in-out 1s;
+    }
+}
+@media screen and (max-width:390px)
+{
+    .photo
+    {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    height: 300px;
+    transition: ease-in-out 1s;
+    }
+}
+
+@media screen and (max-width:340px)
+{
+    .photo
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        transition: ease-in-out 1s;
+    }
+
+    .photo:hover
+    {
+    height: 250px;
+    transition: ease-in-out 1s;
+    }
+}
+
+
+
+
+/***************footer******************/
+
+#pied
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.logo_lien
+{
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+
+
+#lien
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    justify-items: center;
+    padding: 15px;
+}
+#coord
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#coord::after
+{
+    content: "\2709 walidian2002@gmail.com";
+}
+#coord::before
+{
+    content: "\260F +224 620 02 47 46 / 622 51 88 58";
+}
+
+#coord::before, #coord::after
+{
+    font-size: 25px;
+    text-align: center;
+}
