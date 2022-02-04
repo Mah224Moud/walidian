@@ -118,8 +118,7 @@ iframe:hover
     height: 100px;
     background-color: whitesmoke;
     width: 250px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px 35%;
     transition: ease-in-out 1s;
     box-shadow: 0 2px 12px 2px black;
 }
